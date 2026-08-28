@@ -76,13 +76,6 @@ DiscordRichPresenceManager/
      nom de l'application sur Discord
    - Clé image / texte au survol : optionnels
 
-## Migration depuis l'ancien script + tâche planifiée
-
-1. Supprime la tâche planifiée existante (Planificateur de tâches
-   Windows) qui lançait `auto_rpc.py`.
-2. Active la case "Démarrer automatiquement avec Windows" dans
-   l'application — elle prendra le relais dès la prochaine session.
-
 ## Portable / distribution
 
 Tout le dossier `DiscordRichPresenceManager/` peut être zippé et copié
