@@ -1,0 +1,34 @@
+{
+  "check_interval": 5,
+  "start_with_windows": true,
+  "presences": [
+    {
+      "process": "scrcpy.exe",
+      "client_id": "1540806713572065280",
+      "details": "⭐ Global Dokkan Campaign 2026 ⭐",
+      "state": "Farm & Chill",
+      "large_image": "dokkan",
+      "large_text": "Dragon Ball Z Dokkan Battle",
+      "enabled": true
+    },
+    {
+      "process": "Code.exe",
+      "client_id": "1542259008243634276",
+      "details": "En train de coder ⌨️",
+      "state": "(c'est ChatGPT qui fait tout)",
+      "large_image": "visual-studio-code",
+      "large_text": "Visual Studio Code",
+      "enabled": true
+    },
+    {
+      "process": "Outer Wilds Mod Manager.exe",
+      "client_id": "1542261445431922759",
+      "details": "En train de mod Outer Wilds",
+      "state": "Choisi les mods...",
+      "large_image": "owml-logo",
+      "large_text": "OWML",
+      "enabled": true
+    }
+  ],
+  "dark_mode": true
+}
