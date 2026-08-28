@@ -19,7 +19,7 @@ DiscordRichPresenceManager/
 └── README.md
 ```
 
-## Installation (une seule fois)
+## Installation
 
 1. Installer Python 3.9+ depuis https://python.org (cocher "Add
    python.exe to PATH" pendant l'installation).
@@ -33,8 +33,7 @@ DiscordRichPresenceManager/
 
 - Double-clique sur `app.pyw`. Windows associe l'extension `.pyw` à
   `pythonw.exe`, donc **aucune fenêtre de console ne s'affiche** :
-  l'application se réduit directement dans la zone de notification
-  (icône bleue en forme de visage souriant).
+  l'application se réduit directement dans la zone de notification.
 - Clic sur l'icône (ou double-clic) → ouvre la fenêtre de
   configuration.
 - Clic droit sur l'icône → menu "Ouvrir" / "Quitter".
