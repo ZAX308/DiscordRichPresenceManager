@@ -289,9 +289,10 @@ class MainWindow:
         self.config_data = monitor.get_config()
 
         root.title(APP_TITLE)
-        root.geometry("720x520")
-        root.minsize(640, 460)
+        root.geometry("1000x650")
+        root.minsize(780, 565)
         root.protocol("WM_DELETE_WINDOW", self.hide)
+        root.bind("<Control-p>", lambda e: print(f"Taille actuelle : {root.winfo_width()}x{root.winfo_height()}"))
         _set_window_icon(root)
 
         self.theme = ThemeManager(root)
